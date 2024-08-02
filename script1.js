@@ -4,8 +4,11 @@ document.getElementById('sendMailButton').addEventListener('click', async () => 
     const email = document.getElementById('email').value;
     const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
+    const form = document.getElementById('contactForm');
   
     // Call the sendMail function with form data
+    form.reset();
+
     const response = await sendMail({ name, email, phone, message });
   
     if (response.ok) {

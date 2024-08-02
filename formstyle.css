@@ -43,7 +43,7 @@ textarea {
 }
 
 /* Styling for button */
-.sendMailButton {
+.sendbtn {
   width: 100%; /* Make button the same width as the input fields */
   padding: 20px;
   font-size: 16px;
@@ -55,11 +55,11 @@ textarea {
   transition: background-color 0.3s;
 }
 
-.sendMailButton:hover {
+.sendbtn:hover {
   background-color: #e65c00; /* Darker orange on hover */
 }
 
-.sendMailButton:focus {
+.sendbtn:focus {
   outline: none; /* Remove default focus outline */
   box-shadow: 0 0 0 2px rgba(255, 105, 0, 0.5); /* Custom focus style */
 }
