@@ -1,0 +1,72 @@
+/* Reset some default styles */
+
+
+/* Styling for the image */
+.image-container {
+  flex: 1;
+  max-width: 500px; /* Adjust as needed */
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styling for the form */
+form {
+  flex: 2;
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for input fields and textarea */
+input, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 18px;
+  margin-bottom: 12px;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  background-color: #5c5c5c; /* Grey background */
+  color: rgb(168, 168, 168);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Styling for button */
+.sendMailButton {
+  width: 100%; /* Make button the same width as the input fields */
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ff6f00; /* Orange color */
+  color: white;
+  border: none;
+  border-radius: 18px;
+  transition: background-color 0.3s;
+}
+
+.sendMailButton:hover {
+  background-color: #e65c00; /* Darker orange on hover */
+}
+
+.sendMailButton:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px rgba(255, 105, 0, 0.5); /* Custom focus style */
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
